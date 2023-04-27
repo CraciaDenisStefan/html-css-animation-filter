@@ -175,6 +175,47 @@
 }
 @keyframes linear_movement_left {
     0% {
+        right: 20%;
+    }
+    50% {
+        right: 65%
+     }
+    100% {  
+        right: 20%;
+     }
+  }
+
+/* Esercizio 13 */
+.ex-13-button:hover .ex-13-top-white{
+    animation: rotate_movement_right 3s linear;
+}
+@keyframes rotate_movement_right {
+    0% {
+        left: 10%;
+    }
+    20% {
+        left: 80%;
+     }
+    40% { 
+       left: 800%;
+        top: 80%
+     }
+    60% { 
+        left: 0;
+        top: 80%
+     }
+    80% {  
+        left: 0;
+     }
+    100% {  
+        left: 10%;
+     }
+  }
+  .ex-13-button:hover .ex-13-bottom-white{
+    animation: rotate_movement_left 3s linear;
+}
+@keyframes rotate_movement_left {
+    0% {
         right: 10%;
     }
     50% {
