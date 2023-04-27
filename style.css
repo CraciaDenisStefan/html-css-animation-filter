@@ -110,3 +110,9 @@
     filter: contrast(200%);
     filter: sepia(200%);
 }
+/* Esercizio 8 */
+.ex-8-img:hover {
+    filter: saturate(10);
+    filter: blur(1px);
+    border-radius: 10%;
+}
