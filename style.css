@@ -100,3 +100,7 @@
     width: 30px;
     height: 30px;
 }
+/* Esercizio 6 */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
