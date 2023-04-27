@@ -127,10 +127,10 @@
 }
 /* Esercizio 10 */
 @keyframes loading {
-    0% { 
-        transform: rotate(360deg); 
+    0% {
+        transform: rotate(360deg);
     }
-    100% { 
+    100% {
         transform: rotate(0deg);
      }
   }
@@ -139,19 +139,48 @@
     animation: loading_45 3s linear;
 }
 @keyframes loading_45 {
-    0% { 
-        transform: rotate(0deg); 
+    0% {
+        transform: rotate(0deg);
     }
-    25% { 
+    25% {
         transform: rotate(90deg);
      }
-    50% { 
-        transform: rotate(180deg); 
+    50% {
+        transform: rotate(180deg);
     }
-    75% { 
+    75% {
         transform: rotate(320deg);
      }
-    100% { 
+    100% {
         transform: rotate(0deg);
+     }
+  }
+/* Esercizio 12 */
+.ex-12-button:hover .ex-12-top-white{
+    animation: linear_movement_right 3s linear;
+}
+@keyframes linear_movement_right {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: 65%
+     }
+    100% {  
+        left: 10%;
+     }
+  }
+  .ex-12-button:hover .ex-12-bottom-white{
+    animation: linear_movement_left 3s linear;
+}
+@keyframes linear_movement_left {
+    0% {
+        right: 10%;
+    }
+    50% {
+        right: 65%
+     }
+    100% {  
+        right: 10%;
      }
   }
