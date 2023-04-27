@@ -41,6 +41,7 @@
 }
 .ex-10-icon {
     font-size: 60px;
+    animation: loading 3s linear infinite;
 }
 .ex-11-icon {
     font-size: 60px;
@@ -124,3 +125,13 @@
     border-radius: 10%;
     width: 800px;
 }
+/* Esercizio 10 */
+@keyframes loading {
+    0% { 
+        transform: rotate(360deg); 
+    }
+    100% { 
+        transform: rotate(0deg);
+     }
+  }
+
