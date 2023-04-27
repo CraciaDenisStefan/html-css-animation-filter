@@ -43,7 +43,7 @@
     font-size: 60px;
     animation: loading 3s linear infinite;
 }
-.ex-11-icon {
+.ex-11-icon{
     font-size: 60px;
 }
 .ex-12-button, .ex-13-button {
@@ -134,4 +134,24 @@
         transform: rotate(0deg);
      }
   }
-
+/* Esercizio 11 */
+.ex-11-icon:hover{
+    animation: loading_45 3s linear;
+}
+@keyframes loading_45 {
+    0% { 
+        transform: rotate(0deg); 
+    }
+    25% { 
+        transform: rotate(90deg);
+     }
+    50% { 
+        transform: rotate(180deg); 
+    }
+    75% { 
+        transform: rotate(320deg);
+     }
+    100% { 
+        transform: rotate(0deg);
+     }
+  }
